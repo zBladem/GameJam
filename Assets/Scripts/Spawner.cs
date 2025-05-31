@@ -3,10 +3,11 @@ using UnityEngine.UIElements;
 
 public class Spawner : MonoBehaviour
 {
-    public GameObject enemy;
+    public GameObject[] enemies;
     public float cooldown;
     float minX, maxX, posY;
     BoxCollider2D box;
+    private int randomSelection;
     void Start()
     {
         box = GetComponent<BoxCollider2D>();
@@ -25,9 +26,10 @@ public class Spawner : MonoBehaviour
     void Spawnear()
     {
         Updating();
+        randomSelection = Mathf.CeilToInt(transform.position.y)%enemies.Length;
         float randomX = Random.Range(minX, maxX);
         Vector3 posspaw = new Vector3(randomX, posY, 0f);
-        Instantiate(enemy,posspaw,Quaternion.identity);
+        Instantiate(enemies[randomSelection],posspaw,Quaternion.identity);
 
     }
     void Updating ()

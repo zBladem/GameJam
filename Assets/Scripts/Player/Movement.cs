@@ -3,6 +3,7 @@ using UnityEngine;
 public class Movement : MonoBehaviour
 {
     [SerializeField] private float speed;
+    [SerializeField] private float ySpeed;
     [SerializeField] private Rigidbody2D rgbd;
     private Vector2 mov;
     [SerializeField] private Animator ani;
@@ -17,7 +18,7 @@ public class Movement : MonoBehaviour
     {
         mov.x = Input.GetAxisRaw("Horizontal");
 
-        mov.y = Input.GetAxisRaw("Vertical");
+        mov.y = ySpeed;
         Vector2 mousePosition = Input.mousePosition;
         if (Input.GetMouseButton(0))
         {
@@ -31,7 +32,7 @@ public class Movement : MonoBehaviour
             }
                 
         }
-        mov.Normalize();
+        //mov.Normalize();
        ani.SetFloat("Movement",mov.y);
     }
     private void FixedUpdate()

@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7439399193883448182}
   - component: {fileID: 8931402199707913608}
-  - component: {fileID: 8386794217083311806}
+  - component: {fileID: 1302725985613714502}
   m_Layer: 0
   m_Name: Copterface_0
   m_TagString: Untagged
@@ -88,7 +88,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!95 &8386794217083311806
+--- !u!95 &1302725985613714502
 Animator:
   serializedVersion: 7
   m_ObjectHideFlags: 0
