@@ -8,13 +8,15 @@ public class Reloj : MonoBehaviour
     [SerializeField] Transform shootposition;
     Animator animator;
     [SerializeField] Button button;
+    [SerializeField] Button button2;
 
     private void Awake()
     {
         animator = GetComponent<Animator>();
-        if(button!=null)
+        if(button!=null&&button2!=null)
         {
             button.onClick.AddListener(Shoot);
+            button2.onClick.AddListener(Shoot);
         }
     }
 
