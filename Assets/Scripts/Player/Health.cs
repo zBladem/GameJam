@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Health : MonoBehaviour
 {
@@ -6,6 +7,9 @@ public class Health : MonoBehaviour
     bool onCD = false;
     float cdTimer = 0;
     SpriteRenderer spriteRenderer;
+    [SerializeField] GameObject screamer;
+    bool gameover = false;
+    float littleTimer = 0;
     private void Awake()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
@@ -23,6 +27,15 @@ public class Health : MonoBehaviour
             onCD = false;
             cdTimer = 0;
         }
+        if (gameover)
+        {
+            screamer.SetActive(true);
+            littleTimer += Time.deltaTime;
+        }
+        if (littleTimer >= 2)
+        {
+            SceneManager.LoadScene("GameOver");
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -39,7 +52,7 @@ public class Health : MonoBehaviour
         {
             if (hp <= 0)
             {
-                Debug.Log("GameOver");
+                gameover = true;
             }
         }
     }
