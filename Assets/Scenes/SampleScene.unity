@@ -443,6 +443,55 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &158611652
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 158611654}
+  - component: {fileID: 158611653}
+  m_Layer: 0
+  m_Name: Global Volume
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &158611653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 158611652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IsGlobal: 1
+  priority: 0
+  blendDistance: 0
+  weight: 1
+  sharedProfile: {fileID: 11400000, guid: c2ceec84cef3fb3488c883721bc10ba8, type: 2}
+--- !u!4 &158611654
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 158611652}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.0568192, y: 11.411261, z: -0.28047425}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &160814618
 GameObject:
   m_ObjectHideFlags: 0
@@ -1188,7 +1237,7 @@ MonoBehaviour:
     m_Bits: 1
   m_VolumeTrigger: {fileID: 0}
   m_VolumeFrameworkUpdateModeOption: 2
-  m_RenderPostProcessing: 0
+  m_RenderPostProcessing: 1
   m_Antialiasing: 0
   m_AntialiasingQuality: 2
   m_StopNaN: 0
@@ -4952,7 +5001,10 @@ MonoBehaviour:
   enemies:
   - {fileID: 5512472293315071064, guid: dabeed9de967c73419706858bcabeb7d, type: 3}
   - {fileID: 9041692408197864417, guid: 2ebb8c5225d842d48a3592ec249b6a4b, type: 3}
+  - {fileID: 5512472293315071064, guid: dabeed9de967c73419706858bcabeb7d, type: 3}
+  - {fileID: 4718164313154212037, guid: 5aac32c8145942340967f56dc9718412, type: 3}
   - {fileID: 5229030407993577429, guid: 4430822d54668ab4cb6eab17e096bad3, type: 3}
+  - {fileID: 4718164313154212037, guid: 5aac32c8145942340967f56dc9718412, type: 3}
   cooldown: 4
 --- !u!4 &2038733592
 Transform:
@@ -5248,3 +5300,4 @@ SceneRoots:
   - {fileID: 853941300}
   - {fileID: 1246221765}
   - {fileID: 609112933}
+  - {fileID: 158611654}
