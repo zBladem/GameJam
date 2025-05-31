@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class Eye : MonoBehaviour
@@ -14,8 +15,17 @@ public class Eye : MonoBehaviour
         {
             player = playerObject.transform;
         }
-    }
 
+        StartCoroutine(destroy());
+
+    }
+    private IEnumerator destroy()
+    {
+        yield return new WaitForSeconds(5);
+        animator.SetTrigger("Die");
+        Destroy(this.gameObject,2);
+        yield return null;
+    }
     void Update()
     {
         transform.Translate(Vector2.down * speed * Time.deltaTime);

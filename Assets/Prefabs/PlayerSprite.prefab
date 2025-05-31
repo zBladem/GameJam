@@ -169,7 +169,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa9d392575332f546a8f37fb37a2dc4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  reloj: {fileID: 8197611923543400667, guid: a07c2b772adffda4e9057ce995bac575, type: 3}
+  reloj: {fileID: 7014442405573701657, guid: 3598f88974c09e048b7e4a1306ebf145, type: 3}
   shootposition: {fileID: 3049074690927527659}
 --- !u!61 &4045654024236787045
 BoxCollider2D:
