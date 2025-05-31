@@ -18,11 +18,7 @@ public class Eye : MonoBehaviour
 
     void Update()
     {
-        if (player != null)
-        {
-            Vector3 direction = (player.position - transform.position).normalized;
-            transform.position += direction * speed * Time.deltaTime;
-        }
+        transform.Translate(Vector2.down * speed * Time.deltaTime);
     }
 
     void OnTriggerEnter2D(Collider2D other)
@@ -32,6 +28,10 @@ public class Eye : MonoBehaviour
             Debug.Log("asda");
             animator.SetTrigger("Die");
             Destroy(gameObject, 2f);
+        }
+        if (other.CompareTag("Player"))
+        {
+            Destroy(gameObject);
         }
     }
 }
