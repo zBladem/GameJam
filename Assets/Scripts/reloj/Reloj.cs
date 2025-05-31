@@ -1,25 +1,34 @@
 using System;
-using UnityEditor.Experimental.GraphView;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Reloj : MonoBehaviour
 {
     [SerializeField] private GameObject reloj;
     [SerializeField] Transform shootposition;
     Animator animator;
+    [SerializeField] Button button;
 
     private void Awake()
     {
         animator = GetComponent<Animator>();
+        if(button!=null)
+        {
+            button.onClick.AddListener(Shoot);
+        }
     }
 
     private void Update()
     {
         if(Input.GetKeyDown(KeyCode.F))
         {
-            animator.SetTrigger("Shoot");
-            LanzarReloj();
+            Shoot();
         }
+    }
+    private void Shoot()
+    {
+        animator.SetTrigger("Shoot");
+        LanzarReloj();
     }
          
         

@@ -18,6 +18,19 @@ public class Movement : MonoBehaviour
         mov.x = Input.GetAxisRaw("Horizontal");
 
         mov.y = Input.GetAxisRaw("Vertical");
+        Vector2 mousePosition = Input.mousePosition;
+        if (Input.GetMouseButton(0))
+        {
+            if(mousePosition.x< Screen.width/2)
+            {
+                mov.x = -1;
+            }
+            else if (mousePosition.x > Screen.width / 2)
+            {
+                mov.x = 1;
+            }
+                
+        }
         mov.Normalize();
        ani.SetFloat("Movement",mov.y);
     }
