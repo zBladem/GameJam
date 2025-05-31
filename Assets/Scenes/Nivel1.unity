@@ -5162,13 +5162,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemies:
-  - {fileID: 5512472293315071064, guid: dabeed9de967c73419706858bcabeb7d, type: 3}
   - {fileID: 9041692408197864417, guid: 2ebb8c5225d842d48a3592ec249b6a4b, type: 3}
+  - {fileID: 6251867077976178041, guid: 35220cdaf60dc164598fc643ae39f993, type: 3}
+  - {fileID: 4718164313154212037, guid: 5aac32c8145942340967f56dc9718412, type: 3}
   - {fileID: 5512472293315071064, guid: dabeed9de967c73419706858bcabeb7d, type: 3}
-  - {fileID: 4718164313154212037, guid: 5aac32c8145942340967f56dc9718412, type: 3}
-  - {fileID: 5229030407993577429, guid: 4430822d54668ab4cb6eab17e096bad3, type: 3}
-  - {fileID: 4718164313154212037, guid: 5aac32c8145942340967f56dc9718412, type: 3}
-  cooldown: 4
+  cooldown: 0
 --- !u!4 &2038733592
 Transform:
   m_ObjectHideFlags: 0

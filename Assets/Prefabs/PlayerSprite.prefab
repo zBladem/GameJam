@@ -82,7 +82,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 10
   m_Sprite: {fileID: -2311659948842064771, guid: 67e64c7e6fe23704fb1e74c1aa3a01e4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -129,6 +129,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
+  ySpeed: 1
   rgbd: {fileID: 2487707100350993661}
   ani: {fileID: 7390046312926168815}
 --- !u!50 &2487707100350993661
@@ -173,6 +174,7 @@ MonoBehaviour:
   reloj: {fileID: 7014442405573701657, guid: 3598f88974c09e048b7e4a1306ebf145, type: 3}
   shootposition: {fileID: 3049074690927527659}
   button: {fileID: 0}
+  button2: {fileID: 0}
 --- !u!61 &4045654024236787045
 BoxCollider2D:
   m_ObjectHideFlags: 0
