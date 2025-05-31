@@ -8,6 +8,8 @@ public class Health : MonoBehaviour
     float cdTimer = 0;
     SpriteRenderer spriteRenderer;
     [SerializeField] GameObject screamer;
+    [SerializeField] GameObject UI;
+    [SerializeField] GameObject Face;
     bool gameover = false;
     float littleTimer = 0;
     private void Awake()
@@ -30,6 +32,8 @@ public class Health : MonoBehaviour
         if (gameover)
         {
             screamer.SetActive(true);
+            UI.SetActive(false);
+            Face.SetActive(false);
             littleTimer += Time.deltaTime;
         }
         if (littleTimer >= 2)
