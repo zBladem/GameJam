@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      PlataformasDreamcoreRunner (1)_0: -6068218404111686628
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
