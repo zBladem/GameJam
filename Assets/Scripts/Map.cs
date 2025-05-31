@@ -29,7 +29,7 @@ public class Map : MonoBehaviour
         transform.position = newpos;
 
 
-        float scale = Random.RandomRange(range.x, range.y);
+        float scale = Random.Range(range.x, range.y);
         transform.localScale = new Vector3(scale, scale, 1);
     }
 }
