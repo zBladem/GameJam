@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Bullet
   - Evil
+  - Monster
   layers:
   - Default
   - TransparentFX

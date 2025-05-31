@@ -35,6 +35,13 @@ public class Health : MonoBehaviour
                 hp--;
             }
         }
+        if (collision.gameObject.CompareTag("Monster"))
+        {
+            if (hp <= 0)
+            {
+                Debug.Log("GameOver");
+            }
+        }
     }
 
     public int currentHP()
