@@ -12,6 +12,9 @@ public class Chase : MonoBehaviour
 
     private void Update()
     {
-        rb2d.linearVelocity = new Vector2(0,1) * speed; 
+        if (GameObject.FindWithTag("Player").GetComponent<Health>().currentHP() <= 0)
+        {
+            rb2d.linearVelocity = new Vector2(0, 1) * speed;
+        }
     }
 }

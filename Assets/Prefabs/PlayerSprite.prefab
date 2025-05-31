@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 2487707100350993661}
   - component: {fileID: 5315650912640838214}
   - component: {fileID: 4045654024236787045}
+  - component: {fileID: 693642651706357576}
   m_Layer: 0
   m_Name: PlayerSprite
   m_TagString: Player
@@ -171,6 +172,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   reloj: {fileID: 7014442405573701657, guid: 3598f88974c09e048b7e4a1306ebf145, type: 3}
   shootposition: {fileID: 3049074690927527659}
+  button: {fileID: 0}
 --- !u!61 &4045654024236787045
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -217,6 +219,19 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.44891495, y: 0.91420233}
   m_EdgeRadius: 0
+--- !u!114 &693642651706357576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3705639709831842904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6746b16492c7aac47ada79eba54f9977, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hp: 3
 --- !u!1 &4940125482736521688
 GameObject:
   m_ObjectHideFlags: 0
