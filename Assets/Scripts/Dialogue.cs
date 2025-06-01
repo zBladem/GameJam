@@ -6,7 +6,7 @@ public class Dialogue : MonoBehaviour
     [Header("Variables Privadas")]
     private int lineIndex;
     private bool playerInRange;
-    private bool dialogueStarted;
+    private bool dialogueStarted = false;
     private float typingTime = 0.05f;
 
     [Header("Serializados")]

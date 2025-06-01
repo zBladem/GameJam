@@ -15,6 +15,7 @@ TagManager:
   - StopZoneTutorial
   - TutoBox
   - EndExit
+  - DialogueStart
   layers:
   - Default
   - TransparentFX
