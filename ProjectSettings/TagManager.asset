@@ -11,6 +11,7 @@ TagManager:
   - Limit
   - FinishLine
   - LevelOneLimit
+  - StopZone
   layers:
   - Default
   - TransparentFX

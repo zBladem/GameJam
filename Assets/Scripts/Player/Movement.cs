@@ -1,11 +1,15 @@
+using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Movement : MonoBehaviour
 {
+    BoxHealth bh;
     [SerializeField] private float speed;
     [SerializeField] private float ySpeed;
     [SerializeField] private Rigidbody2D rgbd;
     private Vector2 mov;
+    [SerializeField] string sceneName;
     [SerializeField] private Animator ani;
     void Start()
     {
@@ -38,5 +42,26 @@ public class Movement : MonoBehaviour
     private void FixedUpdate()
     {
         rgbd.MovePosition(rgbd.position + mov*speed * Time.deltaTime);
+    }
+    IEnumerator ChangeLevel()
+    {
+        yield return new WaitForSeconds(5);
+        SceneManager.LoadScene(sceneName);
+    }
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("StopZone"))
+        {
+            ySpeed = 0;
+            StartCoroutine(ChangeLevel());
+        }
+        if (other.gameObject.CompareTag("StopZoneTutorial"))
+        {
+            ySpeed = 0;
+            if(bh.IsDestroyed == true)
+            {
+                ySpeed = 5;
+            }
+        }
     }
 }
