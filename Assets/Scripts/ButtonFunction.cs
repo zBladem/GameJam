@@ -8,4 +8,9 @@ public class ButtonFunction : MonoBehaviour
     {
         SceneManager.LoadScene(sceneName);
     }
+
+    public void SalirJuego()
+    {
+        Application.Quit();
+    }
 }
