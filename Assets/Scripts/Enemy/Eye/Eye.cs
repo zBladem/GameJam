@@ -6,9 +6,11 @@ public class Eye : MonoBehaviour
     public float speed = 5f;
     private Transform player;
     Animator animator;
+    BoxCollider2D bCol;
 
     void Start()
     {
+        bCol = GetComponent<BoxCollider2D>();
         GameObject playerObject = GameObject.FindGameObjectWithTag("Player");
         animator = GetComponent<Animator>();
         if (playerObject != null)
@@ -35,6 +37,7 @@ public class Eye : MonoBehaviour
     {
         if (other.CompareTag("Bullet"))
         {
+            Destroy(bCol);
             Debug.Log("asda");
             animator.SetTrigger("Die");
             Destroy(gameObject, 2f);

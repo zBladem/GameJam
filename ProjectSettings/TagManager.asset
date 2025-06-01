@@ -10,6 +10,7 @@ TagManager:
   - Jumpscare
   - Limit
   - FinishLine
+  - LevelOneLimit
   layers:
   - Default
   - TransparentFX

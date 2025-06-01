@@ -10,11 +10,19 @@ public class Health : MonoBehaviour
     [SerializeField] GameObject screamer;
     [SerializeField] GameObject UI;
     [SerializeField] GameObject Face;
+    [SerializeField] GameObject BlackScreen;
+    [SerializeField] GameObject Music;
+    [SerializeField] AudioClip jumpSound;
+    [SerializeField] AudioClip hurtSound;
+    AudioSource audios;
     bool gameover = false;
+    bool FirstLevel = false;
     float littleTimer = 0;
+    float TimerLine = 0;
     private void Awake()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
+        audios = GetComponent<AudioSource>();
     }
     private void Update()
     {
@@ -50,6 +58,7 @@ public class Health : MonoBehaviour
             {
                 onCD = true;
                 hp--;
+                audios.PlayOneShot(hurtSound);
             }
         }
         if (collision.gameObject.CompareTag("Monster"))
@@ -57,11 +66,22 @@ public class Health : MonoBehaviour
             if (hp <= 0)
             {
                 gameover = true;
+                audios.PlayOneShot(jumpSound);
             }
         }
         if (collision.gameObject.CompareTag("Limit"))
         {
             gameover = true;
+        }
+        if (collision.gameObject.CompareTag("FinishLine"))
+        {
+            FirstLevel = true;
+            BlackScreen.SetActive(true);
+            Music.GetComponent<AudioSource>().volume = 0;
+        }
+        if (collision.gameObject.CompareTag("LevelOneLimit"))
+        {
+            SceneManager.LoadScene("Nivel1");
         }
     }
 
