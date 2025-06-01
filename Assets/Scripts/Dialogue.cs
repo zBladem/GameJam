@@ -41,7 +41,6 @@ public class Dialogue : MonoBehaviour
                 dialogueText.text = dialogueLines[lineIndex];
             }
         }
-        
     }
     private void StartDialogue()
     {
@@ -88,9 +87,9 @@ public class Dialogue : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            /*PlayerInRange = true;
+            PlayerInRange = true;
             //dialogueMark.SetActive(true);
-            Debug.Log("Se muestra indicador.");*/
+            Debug.Log("Se muestra indicador.");
             if (!dialogueStarted)
             {
                 StartDialogue();
@@ -106,7 +105,7 @@ public class Dialogue : MonoBehaviour
             }
         }
     }
-    /*private void OnTriggerExit2D(Collider2D collision)
+    private void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
         {
@@ -114,5 +113,5 @@ public class Dialogue : MonoBehaviour
             //dialogueMark.SetActive(false);
             Debug.Log("Se oculta indicador .");
         }
-    }*/
+    }
 }
