@@ -1,6 +1,7 @@
-using UnityEngine;
-using TMPro;
 using System.Collections;
+using TMPro;
+using UnityEngine;
+using UnityEngine.SceneManagement;
 public class Dialogue : MonoBehaviour
 {
     [Header("Variables Privadas")]
@@ -10,6 +11,7 @@ public class Dialogue : MonoBehaviour
     private float typingTime = 0.05f;
 
     [Header("Serializados")]
+    [SerializeField] GameObject BlackScreen;
     //[SerializeField] GameObject dialogueMark;
     [SerializeField] private TMP_Text dialogueText;
     [SerializeField] private GameObject dialoguePanel;
@@ -23,7 +25,7 @@ public class Dialogue : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        /*if(playerInRange == true && Input.GetKeyDown(KeyCode.E))
+        if(playerInRange == true && Input.GetKeyDown(KeyCode.E))
         {
             if (!dialogueStarted)
             {
@@ -38,13 +40,14 @@ public class Dialogue : MonoBehaviour
                 StopAllCoroutines();
                 dialogueText.text = dialogueLines[lineIndex];
             }
-        }*/
+        }
         
     }
     private void StartDialogue()
     {
         dialogueStarted = true;
         dialoguePanel.SetActive(true);
+        BlackScreen.SetActive(true);
         //dialogueMark.SetActive(false);
         lineIndex = 0;
         Time.timeScale = 0f;
@@ -59,19 +62,26 @@ public class Dialogue : MonoBehaviour
             yield return new WaitForSecondsRealtime(typingTime);
         }
     }
+    private IEnumerator ChangeScene()
+    {
+        yield return new WaitForSecondsRealtime(2f);
+        SceneManager.LoadScene(9);
+    }
     private void NextDialogueLine()
     {
         lineIndex++;
-        if(lineIndex < dialogueLines.Length)
+        if(lineIndex < dialogueLines.Length - 1)
         {
             StartCoroutine(ShowLine());
         }
         else
         {
-            dialogueStarted = false;
+            /*dialogueStarted = false;
             dialoguePanel.SetActive(false);
+            BlackScreen.SetActive(false);
             //dialogueMark.SetActive(true);
-            Time.timeScale = 1f;
+            //Time.timeScale = 1f;*/
+            SceneManager.LoadScene(10);
         }
     }
     private void OnTriggerEnter2D(Collider2D collision)

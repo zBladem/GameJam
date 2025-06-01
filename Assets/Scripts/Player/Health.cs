@@ -91,10 +91,6 @@ public class Health : MonoBehaviour
         {
             SceneManager.LoadScene("Nivel1");
         }
-        if (collision.gameObject.CompareTag("DialogueStart"))
-        {
-            BlackScreen.SetActive(true);
-        }
     }
 
     public int currentHP()
