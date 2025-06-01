@@ -59,6 +59,10 @@ public class Health : MonoBehaviour
                 gameover = true;
             }
         }
+        if (collision.gameObject.CompareTag("Limit"))
+        {
+            gameover = true;
+        }
     }
 
     public int currentHP()

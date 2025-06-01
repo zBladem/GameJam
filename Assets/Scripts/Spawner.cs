@@ -26,7 +26,7 @@ public class Spawner : MonoBehaviour
     void Spawnear()
     {
         Updating();
-        randomSelection = Mathf.CeilToInt(transform.position.y) % enemies.Length;
+        randomSelection = Random.Range(0,enemies.Length);
         float randomX = Random.Range(minX, maxX);
         Vector3 posspaw = new Vector3(randomX, posY, 0f);
         Instantiate(enemies[randomSelection],posspaw,Quaternion.identity);
