@@ -4,7 +4,7 @@ using UnityEngine.SceneManagement;
 
 public class Movement : MonoBehaviour
 {
-    BoxHealth bh;
+    [SerializeField] BoxHealth bh;
     [SerializeField] private float speed;
     [SerializeField] private float ySpeed;
     [SerializeField] private Rigidbody2D rgbd;
@@ -38,6 +38,7 @@ public class Movement : MonoBehaviour
         }
         //mov.Normalize();
        ani.SetFloat("Movement",mov.y);
+        
     }
     private void FixedUpdate()
     {
@@ -58,10 +59,14 @@ public class Movement : MonoBehaviour
         if (other.gameObject.CompareTag("StopZoneTutorial"))
         {
             ySpeed = 0;
-            if(bh.IsDestroyed == true)
-            {
-                ySpeed = 5;
-            }
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("StopZoneTutorial"))
+        {
+            ySpeed = 1;
         }
     }
 }

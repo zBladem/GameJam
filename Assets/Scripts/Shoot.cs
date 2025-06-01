@@ -20,6 +20,10 @@ public class Shoot : MonoBehaviour
         {
             Destroy(gameObject);
         }
+        if (collision.gameObject.CompareTag("TutoBox"))
+        {
+            Destroy(gameObject);
+        }
        // Destroy(gameObject);
     }
 }
