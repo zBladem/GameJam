@@ -9,6 +9,7 @@ TagManager:
   - Monster
   - Jumpscare
   - Limit
+  - FinishLine
   layers:
   - Default
   - TransparentFX
