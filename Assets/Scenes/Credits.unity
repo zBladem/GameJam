@@ -153,7 +153,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 211.93, y: -114.699005}
+  m_AnchoredPosition: {x: 211.93001, y: -97.65002}
   m_SizeDelta: {x: 387.78, y: 56.65}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &236082718
@@ -178,8 +178,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: '- Alvaro Balbuena'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 42112fbf12fba714781d1b33941474a4, type: 2}
-  m_sharedMaterial: {fileID: 5265889983886838808, guid: 42112fbf12fba714781d1b33941474a4, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -314,8 +314,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Volver
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 42112fbf12fba714781d1b33941474a4, type: 2}
-  m_sharedMaterial: {fileID: 5265889983886838808, guid: 42112fbf12fba714781d1b33941474a4, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -534,7 +534,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 211.93, y: -183.04898}
+  m_AnchoredPosition: {x: 211.93001, y: -154.30003}
   m_SizeDelta: {x: 387.78, y: 56.65}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &534181941
@@ -559,8 +559,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: '- Alex Zarate'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 42112fbf12fba714781d1b33941474a4, type: 2}
-  m_sharedMaterial: {fileID: 5265889983886838808, guid: 42112fbf12fba714781d1b33941474a4, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -636,6 +636,93 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 534181939}
   m_CullTransparentMesh: 1
+--- !u!1 &566002429
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 566002431}
+  - component: {fileID: 566002430}
+  m_Layer: 0
+  m_Name: Square
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &566002430
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 566002429}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: -80
+  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Color: {r: 0, g: 0.7967817, b: 0.8867924, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &566002431
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 566002429}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.0444, y: -0.0167, z: 0}
+  m_LocalScale: {x: 17.962751, y: 10.062406, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &736603800
 GameObject:
   m_ObjectHideFlags: 0
@@ -670,7 +757,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 211.93, y: -249.8}
+  m_AnchoredPosition: {x: 211.93, y: -210.95006}
   m_SizeDelta: {x: 387.78, y: 56.65}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &736603802
@@ -695,8 +782,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: '- Ricardo Rodriguez'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 42112fbf12fba714781d1b33941474a4, type: 2}
-  m_sharedMaterial: {fileID: 5265889983886838808, guid: 42112fbf12fba714781d1b33941474a4, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -809,8 +896,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 288.85, y: 194.8}
-  m_SizeDelta: {x: 189.91, y: 53.26}
+  m_AnchoredPosition: {x: 296.6, y: 194.8}
+  m_SizeDelta: {x: 174.42, y: 53.26}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &863101833
 MonoBehaviour:
@@ -953,7 +1040,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 211.93, y: -390.04898}
+  m_AnchoredPosition: {x: 211.93, y: -324.25006}
   m_SizeDelta: {x: 387.78, y: 56.65}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &903122991
@@ -978,8 +1065,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: '- Fernando Tapia'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 42112fbf12fba714781d1b33941474a4, type: 2}
-  m_sharedMaterial: {fileID: 5265889983886838808, guid: 42112fbf12fba714781d1b33941474a4, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1089,8 +1176,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 257, y: -51}
-  m_SizeDelta: {x: 477.91, y: 56.65}
+  m_AnchoredPosition: {x: 271.73, y: -41}
+  m_SizeDelta: {x: 507.38, y: 56.65}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1049404726
 MonoBehaviour:
@@ -1114,8 +1201,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Alt+F4ntastic Games
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 42112fbf12fba714781d1b33941474a4, type: 2}
-  m_sharedMaterial: {fileID: 5265889983886838808, guid: 42112fbf12fba714781d1b33941474a4, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1304,7 +1391,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 211.93, y: -322.04898}
+  m_AnchoredPosition: {x: 211.93, y: -267.60007}
   m_SizeDelta: {x: 387.78, y: 56.65}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1137054730
@@ -1329,8 +1416,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: '- Benjamin Trujillo'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 42112fbf12fba714781d1b33941474a4, type: 2}
-  m_sharedMaterial: {fileID: 5265889983886838808, guid: 42112fbf12fba714781d1b33941474a4, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1487,7 +1574,7 @@ Transform:
   m_GameObject: {fileID: 1242965448}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.9, y: -3.5, z: 0}
+  m_LocalPosition: {x: 5.02, y: -3.56, z: 0}
   m_LocalScale: {x: 4, y: 4, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1527,8 +1614,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 211.93, y: -458.049}
-  m_SizeDelta: {x: 387.78, y: 56.65}
+  m_AnchoredPosition: {x: 248.3, y: -380.15005}
+  m_SizeDelta: {x: 460.52, y: 55.15}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1563332763
 MonoBehaviour:
@@ -1552,8 +1639,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: '- Miguel Angel Huamani'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 42112fbf12fba714781d1b33941474a4, type: 2}
-  m_sharedMaterial: {fileID: 5265889983886838808, guid: 42112fbf12fba714781d1b33941474a4, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1710,8 +1797,8 @@ Transform:
   m_GameObject: {fileID: 1634041144}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.0014, y: -0.0487, z: 0}
-  m_LocalScale: {x: 2.1796358, y: 2.3211231, z: 1}
+  m_LocalPosition: {x: 0.0121, y: 0.1453, z: 0}
+  m_LocalScale: {x: 2.4244647, y: 2.3856258, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1862,3 +1949,4 @@ SceneRoots:
   - {fileID: 1129478119}
   - {fileID: 1242965450}
   - {fileID: 1634041146}
+  - {fileID: 566002431}
