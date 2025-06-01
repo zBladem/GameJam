@@ -23,7 +23,7 @@ public class Eye : MonoBehaviour
     }
     private IEnumerator destroy()
     {
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(7);
         animator.SetTrigger("Die");
         Destroy(this.gameObject,2);
         yield return null;
@@ -40,7 +40,7 @@ public class Eye : MonoBehaviour
             Destroy(bCol);
             Debug.Log("asda");
             animator.SetTrigger("Die");
-            Destroy(gameObject, 2f);
+            Destroy(gameObject, 0.4f);
         }
         if (other.CompareTag("Player"))
         {
