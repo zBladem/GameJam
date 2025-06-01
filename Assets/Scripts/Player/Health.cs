@@ -48,6 +48,14 @@ public class Health : MonoBehaviour
         {
             SceneManager.LoadScene("GameOver");
         }
+        if (FirstLevel)
+        {
+            TimerLine += Time.deltaTime;
+        }
+        if (TimerLine >= 4)
+        {
+            SceneManager.LoadScene("Nivel2");
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
