@@ -459,7 +459,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &158611653
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -541,7 +541,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!82 &169477347
 AudioSource:
   m_ObjectHideFlags: 0
@@ -856,6 +856,10 @@ PrefabInstance:
       propertyPath: BlackScreen
       value: 
       objectReference: {fileID: 984820627}
+    - target: {fileID: 2487707100350993661, guid: 502657ea596026942b4fb5b0af9c5c05, type: 3}
+      propertyPath: m_Constraints
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3083872418924686765, guid: 502657ea596026942b4fb5b0af9c5c05, type: 3}
       propertyPath: m_SortingOrder
       value: 10
@@ -948,7 +952,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!61 &308757062
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3972,7 +3976,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1261212512
 Transform:
   m_ObjectHideFlags: 0
@@ -5519,7 +5523,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1910054786
 Transform:
   m_ObjectHideFlags: 0
@@ -6368,7 +6372,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!61 &2111801273
 BoxCollider2D:
   m_ObjectHideFlags: 0

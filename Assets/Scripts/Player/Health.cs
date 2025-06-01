@@ -91,6 +91,10 @@ public class Health : MonoBehaviour
         {
             SceneManager.LoadScene("Nivel1");
         }
+        if (collision.gameObject.CompareTag("EndExit"))
+        {
+            SceneManager.LoadScene("NivelFinal");
+        }
     }
 
     public int currentHP()
