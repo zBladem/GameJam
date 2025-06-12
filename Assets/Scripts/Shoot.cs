@@ -3,12 +3,21 @@ using UnityEngine;
 public class Shoot : MonoBehaviour
 {
     [SerializeField] float speed;
+    [SerializeField] bool FinalLevel = false;
     float lifeTime = 0;
 
     void Update()
     {
-        transform.Translate(Vector2.up * speed * Time.deltaTime); 
-        lifeTime += Time.deltaTime;
+        if(FinalLevel==false)
+        {
+            transform.Translate(Vector2.up * speed * Time.deltaTime);
+            lifeTime += Time.deltaTime;
+        }
+        else
+        {
+            transform.Translate(Vector2.down * speed * Time.deltaTime);
+            lifeTime += Time.deltaTime;
+        }
         if (lifeTime >= 1)
         {
             Destroy(gameObject);
