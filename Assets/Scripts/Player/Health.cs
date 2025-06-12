@@ -93,7 +93,7 @@ public class Health : MonoBehaviour
         }
         if (collision.gameObject.CompareTag("EndExit"))
         {
-            SceneManager.LoadScene("NivelFinal");
+            SceneManager.LoadScene("Nivel3");
         }
     }
 
