@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 using Unity.VisualScripting;
 
 public class BossHP : MonoBehaviour
@@ -48,10 +49,11 @@ public class BossHP : MonoBehaviour
     {
         if (other.CompareTag("Bullet"))
         {
-            Destroy(boxCollider2D);
-            Debug.Log("asda");
-            animator.SetTrigger("dying");
-            Destroy(gameObject, 2f);
+            Life--;
+            if (Life <= 0)
+            {
+                SceneManager.LoadScene("NivelFinal");
+            }
         }
     }
     private void FixedUpdate()
