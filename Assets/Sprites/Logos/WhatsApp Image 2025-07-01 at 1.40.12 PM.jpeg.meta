@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 14c8ffc6521d9ad40839b8b5e99c9158
+guid: 8926d5a08ded99d4eaced79988f5ed23
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6068218404111686628
-    second: PlataformasDreamcoreRunner (1)_0
+      213: 5081919033276264600
+    second: WhatsApp Image 2025-07-01 at 1.40.12 PM_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -122,30 +122,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: iOS
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PlataformasDreamcoreRunner (1)_0
+      name: WhatsApp Image 2025-07-01 at 1.40.12 PM_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 736
-        height: 417
+        width: 1154
+        height: 768
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c146f63238b59cba0800000000000000
-      internalID: -6068218404111686628
+      spriteID: 8907ab38f6a968640800000000000000
+      internalID: 5081919033276264600
       vertices: []
       indices: 
       edges: []
@@ -164,7 +151,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -173,8 +160,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      PlataformasDreamcoreRunner (1)_0: -6068218404111686628
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

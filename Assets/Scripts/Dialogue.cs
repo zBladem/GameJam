@@ -21,27 +21,6 @@ public class Dialogue : MonoBehaviour
         get { return playerInRange; }
         set { playerInRange = value; }
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        if(playerInRange == true && Input.GetKeyDown(KeyCode.E))
-        {
-            if (!dialogueStarted)
-            {
-                StartDialogue();
-            }
-            else if(dialogueText.text == dialogueLines[lineIndex])
-            {
-                NextDialogueLine();
-            }
-            else
-            {
-                StopAllCoroutines();
-                dialogueText.text = dialogueLines[lineIndex];
-            }
-        }
-    }
     private void StartDialogue()
     {
         dialogueStarted = true;
@@ -60,6 +39,8 @@ public class Dialogue : MonoBehaviour
             dialogueText.text += ch;
             yield return new WaitForSecondsRealtime(typingTime);
         }
+        yield return new WaitForSecondsRealtime(2);
+        NextDialogueLine();
     }
     private IEnumerator ChangeScene()
     {
@@ -72,15 +53,6 @@ public class Dialogue : MonoBehaviour
         if(lineIndex < dialogueLines.Length - 1)
         {
             StartCoroutine(ShowLine());
-        }
-        else
-        {
-            /*dialogueStarted = false;
-            dialoguePanel.SetActive(false);
-            BlackScreen.SetActive(false);
-            //dialogueMark.SetActive(true);
-            //Time.timeScale = 1f;*/
-            SceneManager.LoadScene(10);
         }
     }
     private void OnTriggerEnter2D(Collider2D collision)

@@ -428,7 +428,7 @@ MonoBehaviour:
     AngularDampingMode: 0
     RotationDamping: {x: 1, y: 1, z: 1}
     QuaternionDamping: 1
-  FollowOffset: {x: 0, y: 2, z: -10}
+  FollowOffset: {x: 0, y: 2.8, z: -10}
 --- !u!114 &105109225
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -481,7 +481,7 @@ Transform:
   m_GameObject: {fileID: 105109223}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 2, z: -10}
+  m_LocalPosition: {x: 0, y: 2.8, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1637,6 +1637,14 @@ PrefabInstance:
       propertyPath: jumpSound
       value: 
       objectReference: {fileID: 8300000, guid: a1d5f3fe0a8290c4b81790ffdd6c93c4, type: 3}
+    - target: {fileID: 856044729390140682, guid: 502657ea596026942b4fb5b0af9c5c05, type: 3}
+      propertyPath: m_Pitch
+      value: 0.83
+      objectReference: {fileID: 0}
+    - target: {fileID: 856044729390140682, guid: 502657ea596026942b4fb5b0af9c5c05, type: 3}
+      propertyPath: m_Volume
+      value: 0.593
+      objectReference: {fileID: 0}
     - target: {fileID: 3083872418924686765, guid: 502657ea596026942b4fb5b0af9c5c05, type: 3}
       propertyPath: m_SortingOrder
       value: 10
@@ -2036,7 +2044,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84358a6a1d5ba064a9131dd2469f1d1f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 0}
+  Player: {fileID: 753474390}
 --- !u!1001 &398326092
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2562,7 +2570,7 @@ AudioSource:
   m_audioClip: {fileID: 8300000, guid: 270214701d144774bb27977daa19bdd1, type: 3}
   m_Resource: {fileID: 8300000, guid: 270214701d144774bb27977daa19bdd1, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.662
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -3145,7 +3153,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 2, z: -10}
+  m_LocalPosition: {x: 0, y: 2.8, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -5041,6 +5049,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 7445920385926347017, guid: f98887a635132a946be9533a5cd2fa09, type: 3}
   m_PrefabInstance: {fileID: 746633086}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &753474390 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3705639709831842904, guid: 502657ea596026942b4fb5b0af9c5c05, type: 3}
+  m_PrefabInstance: {fileID: 300856858}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &804561602
 GameObject:

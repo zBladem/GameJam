@@ -52,7 +52,7 @@ public class Health : MonoBehaviour
         {
             TimerLine += Time.deltaTime;
         }
-        if (TimerLine >= 4)
+        if (TimerLine >= 2)
         {
             SceneManager.LoadScene("Nivel2");
         }

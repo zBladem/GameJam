@@ -1,0 +1,949 @@
+fileFormatVersion: 2
+guid: 59d24f0cbc780bf40841e6cec64ed361
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6579147906990413347
+    second: logoblanco2_0
+  - first:
+      213: -4996733295431537968
+    second: logoblanco2_1
+  - first:
+      213: 2177558254772597057
+    second: logoblanco2_2
+  - first:
+      213: 7361659971172239232
+    second: logoblanco2_3
+  - first:
+      213: 5556490007070920467
+    second: logoblanco2_4
+  - first:
+      213: 108496011793175880
+    second: logoblanco2_5
+  - first:
+      213: -4926210123168478657
+    second: logoblanco2_6
+  - first:
+      213: 1635460247728493409
+    second: logoblanco2_7
+  - first:
+      213: -8000174110177372644
+    second: logoblanco2_8
+  - first:
+      213: 2937359653878853026
+    second: logoblanco2_9
+  - first:
+      213: -3482586224088892032
+    second: logoblanco2_10
+  - first:
+      213: -7175133457971341157
+    second: logoblanco2_11
+  - first:
+      213: -1635318835207188212
+    second: logoblanco2_12
+  - first:
+      213: 6895990721988387936
+    second: logoblanco2_13
+  - first:
+      213: -5775926403623946751
+    second: logoblanco2_14
+  - first:
+      213: 1877352886315894376
+    second: logoblanco2_15
+  - first:
+      213: -7576260739611737963
+    second: logoblanco2_16
+  - first:
+      213: -373549917885472535
+    second: logoblanco2_17
+  - first:
+      213: 3741262839497700370
+    second: logoblanco2_18
+  - first:
+      213: 1075549744473199570
+    second: logoblanco2_19
+  - first:
+      213: 7210431591908928050
+    second: logoblanco2_20
+  - first:
+      213: -3675721557105785062
+    second: logoblanco2_21
+  - first:
+      213: 1678727172234998327
+    second: logoblanco2_22
+  - first:
+      213: -8806955088257010944
+    second: logoblanco2_23
+  - first:
+      213: 4665972483414601815
+    second: logoblanco2_24
+  - first:
+      213: -6097814519177145301
+    second: logoblanco2_25
+  - first:
+      213: 6059824830845683937
+    second: logoblanco2_26
+  - first:
+      213: -90305780442627212
+    second: logoblanco2_27
+  - first:
+      213: 1668352092381687842
+    second: logoblanco2_28
+  - first:
+      213: -7400002515385470892
+    second: logoblanco2_29
+  - first:
+      213: 5457980009809001352
+    second: logoblanco2_30
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: logoblanco2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1043
+        width: 1837
+        height: 2141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3261be0e924dd4b50800000000000000
+      internalID: 6579147906990413347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logoblanco2_1
+      rect:
+        serializedVersion: 2
+        x: 2135
+        y: 1040
+        width: 1842
+        height: 2144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0daaf68aa8908aab0800000000000000
+      internalID: -4996733295431537968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logoblanco2_2
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 373
+        width: 444
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 141b07d02bd383e10800000000000000
+      internalID: 2177558254772597057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logoblanco2_3
+      rect:
+        serializedVersion: 2
+        x: 2143
+        y: 382
+        width: 369
+        height: 523
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0870fe27dbed92660800000000000000
+      internalID: 7361659971172239232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logoblanco2_4
+      rect:
+        serializedVersion: 2
+        x: 2734
+        y: 381
+        width: 450
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31f487dc83e9c1d40800000000000000
+      internalID: 5556490007070920467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logoblanco2_5
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 811
+        width: 93
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8459a724c84718100800000000000000
+      internalID: 108496011793175880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logoblanco2_6
+      rect:
+        serializedVersion: 2
+        x: 3396
+        y: 392
+        width: 234
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3a0c9f3ef592abb0800000000000000
+      internalID: -4926210123168478657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logoblanco2_7
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 382
+        width: 369
+        height: 371
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16311262e6252b610800000000000000
+      internalID: 1635460247728493409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logoblanco2_8
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 384
+        width: 344
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c16d995980ca9f090800000000000000
+      internalID: -8000174110177372644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logoblanco2_9
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 382
+        width: 302
+        height: 371
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ad630bda0993c820800000000000000
+      internalID: 2937359653878853026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logoblanco2_10
+      rect:
+        serializedVersion: 2
+        x: 1747
+        y: 382
+        width: 347
+        height: 371
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08d338dd74e5bafc0800000000000000
+      internalID: -3482586224088892032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logoblanco2_11
+      rect:
+        serializedVersion: 2
+        x: 3250
+        y: 392
+        width: 73
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b98199da22ecc6c90800000000000000
+      internalID: -7175133457971341157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logoblanco2_12
+      rect:
+        serializedVersion: 2
+        x: 3654
+        y: 234
+        width: 354
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0158f40f2e2e49e0800000000000000
+      internalID: -1635318835207188212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logoblanco2_13
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 2
+        width: 196
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 064e18e660b73bf50800000000000000
+      internalID: 6895990721988387936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logoblanco2_14
+      rect:
+        serializedVersion: 2
+        x: 1487
+        y: 186
+        width: 36
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 106f13fb989c7dfa0800000000000000
+      internalID: -5775926403623946751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logoblanco2_15
+      rect:
+        serializedVersion: 2
+        x: 1928
+        y: 186
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 866c9e2e082bd0a10800000000000000
+      internalID: 1877352886315894376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logoblanco2_16
+      rect:
+        serializedVersion: 2
+        x: 2067
+        y: 180
+        width: 59
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59044b18ff6bbd690800000000000000
+      internalID: -7576260739611737963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logoblanco2_17
+      rect:
+        serializedVersion: 2
+        x: 2467
+        y: 0
+        width: 188
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e06f8e2452e0daf0800000000000000
+      internalID: -373549917885472535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logoblanco2_18
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 1
+        width: 130
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21431affab2abe330800000000000000
+      internalID: 3741262839497700370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logoblanco2_19
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 1
+        width: 163
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d356994bce1dee00800000000000000
+      internalID: 1075549744473199570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logoblanco2_20
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 1
+        width: 140
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23a6cf09459901460800000000000000
+      internalID: 7210431591908928050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logoblanco2_21
+      rect:
+        serializedVersion: 2
+        x: 1491
+        y: 2
+        width: 28
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a17c677f7b63dfcc0800000000000000
+      internalID: -3675721557105785062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logoblanco2_22
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 1
+        width: 163
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 732fcd708790c4710800000000000000
+      internalID: 1678727172234998327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logoblanco2_23
+      rect:
+        serializedVersion: 2
+        x: 1751
+        y: 1
+        width: 140
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0033f9b220967c580800000000000000
+      internalID: -8806955088257010944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logoblanco2_24
+      rect:
+        serializedVersion: 2
+        x: 1932
+        y: 2
+        width: 28
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 750bca5904dd0c040800000000000000
+      internalID: 4665972483414601815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logoblanco2_25
+      rect:
+        serializedVersion: 2
+        x: 2001
+        y: 1
+        width: 163
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b241a3e9006306ba0800000000000000
+      internalID: -6097814519177145301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logoblanco2_26
+      rect:
+        serializedVersion: 2
+        x: 2201
+        y: 2
+        width: 149
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e806abc392d81450800000000000000
+      internalID: 6059824830845683937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logoblanco2_27
+      rect:
+        serializedVersion: 2
+        x: 2676
+        y: 1
+        width: 163
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4738d830f5b2fbef0800000000000000
+      internalID: -90305780442627212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logoblanco2_28
+      rect:
+        serializedVersion: 2
+        x: 2876
+        y: 2
+        width: 225
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 220b0b2836d272710800000000000000
+      internalID: 1668352092381687842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logoblanco2_29
+      rect:
+        serializedVersion: 2
+        x: 3135
+        y: 1
+        width: 151
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 450b37d4be8ed4990800000000000000
+      internalID: -7400002515385470892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logoblanco2_30
+      rect:
+        serializedVersion: 2
+        x: 3316
+        y: 2
+        width: 102
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88b39dbb6e3aebb40800000000000000
+      internalID: 5457980009809001352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      logoblanco2_0: 6579147906990413347
+      logoblanco2_1: -4996733295431537968
+      logoblanco2_10: -3482586224088892032
+      logoblanco2_11: -7175133457971341157
+      logoblanco2_12: -1635318835207188212
+      logoblanco2_13: 6895990721988387936
+      logoblanco2_14: -5775926403623946751
+      logoblanco2_15: 1877352886315894376
+      logoblanco2_16: -7576260739611737963
+      logoblanco2_17: -373549917885472535
+      logoblanco2_18: 3741262839497700370
+      logoblanco2_19: 1075549744473199570
+      logoblanco2_2: 2177558254772597057
+      logoblanco2_20: 7210431591908928050
+      logoblanco2_21: -3675721557105785062
+      logoblanco2_22: 1678727172234998327
+      logoblanco2_23: -8806955088257010944
+      logoblanco2_24: 4665972483414601815
+      logoblanco2_25: -6097814519177145301
+      logoblanco2_26: 6059824830845683937
+      logoblanco2_27: -90305780442627212
+      logoblanco2_28: 1668352092381687842
+      logoblanco2_29: -7400002515385470892
+      logoblanco2_3: 7361659971172239232
+      logoblanco2_30: 5457980009809001352
+      logoblanco2_4: 5556490007070920467
+      logoblanco2_5: 108496011793175880
+      logoblanco2_6: -4926210123168478657
+      logoblanco2_7: 1635460247728493409
+      logoblanco2_8: -8000174110177372644
+      logoblanco2_9: 2937359653878853026
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

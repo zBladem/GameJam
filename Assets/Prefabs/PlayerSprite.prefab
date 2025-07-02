@@ -129,9 +129,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48245b32940ec924fb4934e5f5865008, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bh: {fileID: 0}
   speed: 5
   ySpeed: 1
   rgbd: {fileID: 2487707100350993661}
+  sceneName: 
   ani: {fileID: 7390046312926168815}
 --- !u!50 &2487707100350993661
 Rigidbody2D:
@@ -241,6 +243,7 @@ MonoBehaviour:
   BlackScreen: {fileID: 0}
   Music: {fileID: 0}
   jumpSound: {fileID: 0}
+  hurtSound: {fileID: 0}
 --- !u!82 &856044729390140682
 AudioSource:
   m_ObjectHideFlags: 0
@@ -254,7 +257,7 @@ AudioSource:
   m_audioClip: {fileID: 8300000, guid: 4053df24bf2a222419ba4c99d3020f19, type: 3}
   m_Resource: {fileID: 8300000, guid: 4053df24bf2a222419ba4c99d3020f19, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.662
   m_Pitch: 1
   Loop: 0
   Mute: 0

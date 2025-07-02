@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 public class Counter : MonoBehaviour
 {
     [SerializeField] string sceneName = "Victory";
+    [SerializeField] float time = 8;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -18,7 +19,7 @@ public class Counter : MonoBehaviour
     }
     private IEnumerator ChangeScene()
     {
-        yield return new WaitForSecondsRealtime(8f);
+        yield return new WaitForSecondsRealtime(time);
         SceneManager.LoadScene(sceneName);
     }
     private void OnTriggerEnter2D(Collider2D collision)
