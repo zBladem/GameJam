@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -18,6 +17,8 @@ public class Reloj : MonoBehaviour
             button.onClick.AddListener(Shoot);
             button2.onClick.AddListener(Shoot);
         }
+
+        InvokeRepeating(nameof(Shoot), 1, 0.5f);
     }
 
     private void Update()
@@ -27,19 +28,13 @@ public class Reloj : MonoBehaviour
             Shoot();
         }
     }
-    private void Shoot()
+    public void Shoot()
     {
         animator.SetTrigger("Shoot");
         LanzarReloj();
     }
-         
-        
-
     private void LanzarReloj()
     {
         Instantiate(reloj, shootposition.position, Quaternion.identity);
     }
-
-
 }
-
